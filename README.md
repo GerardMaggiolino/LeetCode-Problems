@@ -1,9 +1,13 @@
 # LeetCode-Problems
 ### Solutions to various LeetCode problems. 
+Each directory contains one or more solutions to a problem. Algorithms employed,
+language used, and brief description of the problem noted below in the following
+format: 
 
 #### title-of-problem:
 Problem description. (Language used)<p>
 - Algorithms employed
+<p>
 
 #### k-largest-element:
 Find the kth largest element in an unsorted array. (Java)<p>
@@ -12,5 +16,11 @@ Find the kth largest element in an unsorted array. (Java)<p>
 
 #### top-k-frequent-elements
 Given array of integers, return k most frequent elements. (Python)<p>
-- Bin sort based on frequency with no internal bin sort
+- Bin sort based on frequency with no internal sort
 
+#### permutations
+Given a collection of distinct integers, return all possible permutations.
+(Python)<p>
+- Original recursive backtracking solution with two swaps per generated 
+  permutation.
+- Heap's algorithm implementation, single swap per permutation. 
