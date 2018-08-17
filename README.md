@@ -24,3 +24,10 @@ Given a collection of distinct integers, return all possible permutations.
 - Original recursive backtracking solution with two swaps per generated 
   permutation.
 - Heap's algorithm implementation, single swap per permutation. 
+
+#### spiral
+Given a matrix, return all elements of the matrix in spiral order (C)<p>
+- Original iterative solution looping across matrix with updated bounds.  
+
+
+
